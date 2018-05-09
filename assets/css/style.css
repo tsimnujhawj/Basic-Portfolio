@@ -15,6 +15,28 @@ body {
     padding-top: 15px;
  }
 
+ .img-text-left {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 12px;
+    float: left;
+    border: #666666 1px solid;
+ }
+
+ ul {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    border: solid 1px #4aaaa5;
+    margin-top: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+
+ li {
+     margin-bottom: 10px;
+ }
+
 #heading {
     width: 960px;
     margin: 0 auto;
@@ -30,15 +52,16 @@ header {
     left: 0;
     right: 0;
     margin: 0 auto;
-
-}
-
-#header-ext {
+    z-index: 99;
 
 }
 
 #navlinks {
     float: right;
+    padding: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 18px;
 }
 
 footer {
@@ -70,10 +93,10 @@ section {
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     color: #ffffff;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     float: left;
-    padding: 25px;
+    padding: 22px;
 }
 
 #h1-about {
@@ -86,7 +109,7 @@ hr {
 }
 
 #nav-spacer {
-    margin-top: 180px;
+    margin-top: 170px;
 }
 
 #footer-wrapper {
@@ -97,4 +120,43 @@ hr {
 .page-container {
     width: 960px;
     margin: 0 auto;
+}
+
+
+.linkspace {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+
+}
+
+.linkspace-last {
+    padding-left: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+
+}
+
+.about-images {
+    float: left;
+    border: 2px solid #dddddd;
+    margin: 20px 20px 20px 0px;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
 }
