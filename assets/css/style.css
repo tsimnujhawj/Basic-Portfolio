@@ -16,14 +16,8 @@ body {
  }
 
 #heading {
-    background-color: #4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    color: #ffffff;
-    font-size: 25px;
-    font-weight: bold;
-    float: left;
-    height: 100%;
-    max-width: 960px;
+    width: 960px;
+    margin: 0 auto;
 }
 
 header {
@@ -72,9 +66,19 @@ section {
     line-height: 1.8;
 }
 
-h1 {
-   color: #4aaaa5;
+#h1-header {
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    height: 100%;
+    float: left;
+    padding: 30px;
+}
 
+#h1-about {
+   color: #4aaaa5;
 }
 
 hr {
