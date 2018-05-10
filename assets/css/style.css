@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-color: #4aaaa5;
     background-image: url("../images/dust_scratches.png");
@@ -207,4 +208,41 @@ a:hover {
 
 a:active {
     text-decoration: underline;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 28px;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.portfolio-box {
+    display: inline-block;
+    margin: 20px 20px 20px 0px;
+
+}
+
+.portfolio {
+    margin-top: 15px;
 }
